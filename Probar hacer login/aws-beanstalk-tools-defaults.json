@@ -1,0 +1,21 @@
+{
+  "region": "us-east-2",
+  "configuration": "Debug",
+  "framework": "net8.0",
+  "self-contained": true,
+  "application": "Probarhacerlogin",
+  "environment": "loginandregister",
+  "app-path": "/",
+  "iis-website": "Default Web Site",
+  "enable-xray": false,
+  "enhanced-health-type": "basic",
+  "additional-options": "\u0022aws:autoscaling:launchconfiguration,SecurityGroups\u0022=\u0022sg-069e206989b83f4ae\u0022;\u0022aws:ec2:vpc,Subnets\u0022=\u0022subnet-04948298b08c54eef\u0022",
+  "solution-stack": "64bit Amazon Linux 2 v2.11.7 running .NET Core",
+  "environment-type": "SingleInstance",
+  "cname": "loginandregister",
+  "instance-type": "t3a.medium",
+  "key-pair": "",
+  "instance-profile": "aws-elasticbeanstalk-ec2-role",
+  "service-role": "aws-elasticbeanstalk-service-role",
+  "proxy-server": "nginx"
+}
